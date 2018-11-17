@@ -1,7 +1,7 @@
 from flask import Flask
-from config import Configuration
+from app.config import Configuration
 
-from posts.blueprint import post
+from app.posts.blueprins import post
 
 
 app = Flask(__name__)

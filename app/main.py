@@ -1,5 +1,6 @@
-from app import app
-import view
+from app.my_app import app as _app
+import app.view
+
 
 if __name__ == '__main__':
-    app.run()
+    _app.run()
