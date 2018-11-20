@@ -1,5 +1,5 @@
-from app.my_app import app as _app
-import app.view
+from my_app import app as _app
+import view
 
 
 if __name__ == '__main__':
